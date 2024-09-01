@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <h2>Call function</h2>
+    <p>do a calculation the display the result</p>
+    <p id="demo"></p>
+    <script>
+        function pro(a,b){
+            return a*b;
+        }
+        function add(a,b){
+            return a+b;
+        }
+        function avg(a,b){
+            return add(a,b)/2;
+        }
+        let result= avg(24,28);
+        let addition= add(74,45);
+        let multiply= pro(32,79);
+
+        document.getElementById("demo").innerHTML=result;
+        document.getElementById("demo").innerHTML=addition;
+       //document.getElementById("demo").innerHTML=multiply;
+    </script>
+</html>
